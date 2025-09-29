@@ -36,7 +36,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"message": "Machine Learning Welcome to Placement Review Sentiment API"}
+    return {"message": "Machine Learning Welcome to Placement Review Sentiment API Santosh Kumar Singh"}
 
 @app.route("/predict", methods=["POST"])
 def predict_sentiment():
@@ -71,5 +71,6 @@ def predict_sentiment():
 # ------------------------------
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
